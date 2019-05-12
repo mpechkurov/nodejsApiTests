@@ -1,0 +1,17 @@
+{
+  "name": "api-tests-for-vehicle-status",
+  "version": "1.0.0",
+  "description": "This is end to end tests https://developer.mercedes-benz.com/apis/vehicle_status/demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/ApiVehicleStatusTests.js "
+  },
+  "author": "Mykhailo Pechkurov",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "should": "^7.0.2",
+    "supertest": "^4.0.2"
+  }
+}
